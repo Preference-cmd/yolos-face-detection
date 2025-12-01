@@ -20,3 +20,9 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "yolos_face"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "notebook>=7.5.0",
+]
